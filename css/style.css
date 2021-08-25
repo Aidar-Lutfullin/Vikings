@@ -492,7 +492,7 @@ ul {
     transition: all 0.3s;
   }
 
-  .menu__list.menu__list--active {
+  .menu__list.menu__list-active {
     transform: translateY(0%);
     padding: 100px 0 50px;
     background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%);
@@ -561,6 +561,6 @@ ul {
 
 @media (max-width: 374px) {
   .page-header {
-    height: 200vh;
+    height: 180vh;
   }
 }
